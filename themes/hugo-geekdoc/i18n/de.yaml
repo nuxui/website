@@ -34,9 +34,8 @@ posts_count:
   other: "{{ . }} Artikel"
 posts_tagged_with: Alle Artikel mit dem Tag '{{ . }}'
 
-footer_build_with: >
-  Entwickelt mit <a href="https://gohugo.io/" class="gdoc-footer__link">Hugo</a> und
-  <svg class="gdoc-icon gdoc_heart"><use xlink:href="#gdoc_heart"></use></svg>
+nuxui_version: >
+  nuxui 0.0.1 ·2022-05-11·487d750
 footer_legal_notice: Impressum
 footer_privacy_policy: Datenschutzerklärung
 footer_content_license_prefix: >

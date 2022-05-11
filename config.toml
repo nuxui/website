@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://nuxui.org"
 title = "nuxui"
 theme = "hugo-geekdoc"
 

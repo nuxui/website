@@ -12,3 +12,9 @@ To install and run NuxUI, your development environment must meet these minimum r
 
 [Dwonload golang](https://go.dev/dl/)  
 [golang installation instructions](https://go.dev/doc/install)
+
+**macOS Developer Tools**
+
+```shell
+xcode-select --install
+```
