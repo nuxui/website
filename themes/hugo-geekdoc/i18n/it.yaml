@@ -35,7 +35,7 @@ posts_count:
 posts_tagged_with: Tutti i post etichettati con '{{ . }}'
 
 nuxui_version: >
-  nuxui 0.0.1 ·2022-05-11·487d750
+  nuxui 0.0.3 ·2022-06-09·3b6e429
 footer_legal_notice: Avviso Legale
 footer_privacy_policy: Politica sulla Privacy
 footer_content_license_prefix: >

@@ -17,9 +17,9 @@ module example.com/my/hello
 
 go 1.18
 
-require nuxui.org/nuxui v0.0.1
+require nuxui.org/nuxui v0.0.3
 
-replace nuxui.org/nuxui v0.0.1 => github.com/nuxui/nuxui v0.0.1
+replace nuxui.org/nuxui v0.0.3 => github.com/nuxui/nuxui v0.0.3
 ```
 
 then update dependencies
@@ -34,69 +34,21 @@ create a `hello.go` file and programing:
 package main
 
 import (
-	"nuxui.org/nuxui/nux"
-	_ "nuxui.org/nuxui/ui"
+    "nuxui.org/nuxui/nux"
+    _ "nuxui.org/nuxui/ui"
 )
 
-type Home interface {
-	nux.Component
-}
-
-type home struct {
-	*nux.ComponentBase
-	content nux.Widget
-}
-
-func NewHome(attr nux.Attr) Home {
-	me := &home{}
-	me.ComponentBase = nux.NewComponentBase(me, attr)
-	me.content = nux.InflateLayout(me, me.template())
-	return me
-}
-
-func (me *home) template() string {
-	return `
-{
-  import: {
-    ui: nuxui.org/nuxui/ui,
-  },
-
-  layout: {
-	widget: ui.Column,
-	width: 100%,
-	height: 100%,
-	background: #303030,
-	children:[
-		{
-			widget: ui.Text,
-			text: Hello NuxUI,
-			textSize: 30,
-		}
-	]
-  }
-}
-  `
-}
-
-func init() {
-	nux.RegisterWidget((*Home)(nil), func(attr nux.Attr) nux.Widget { return NewHome(attr) })
-}
-
-const manifest = `
-{
-  import: {
-	main: main,
-  }, 
-
-  manifest: {
-	  main: main.Home,
-  },
-}
-`
-
 func main() {
-	nux.Init(manifest)
-	nux.Run()
+    nux.Run(nux.NewWindow(nux.Attr{
+        "width":  "15%", // screen_width x 15%
+        "height": "2:1", // width : height = 2 : 1
+        "title":  "hello",
+        "content": nux.Attr{
+            "type": "nuxui.org/nuxui/ui.Text",
+            "text": `Hello nuxui`,
+        },
+    }))
+
 }
 ```
 
