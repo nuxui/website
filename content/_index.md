@@ -1,6 +1,6 @@
 ---
 title: "NuxUI documentation"
-weight: 1
+weight: 4
 ---
 
 
