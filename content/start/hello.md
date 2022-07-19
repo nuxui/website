@@ -10,16 +10,16 @@ cd hello
 go mod init example.com/my/hello
 ```
 
-modify `go.mode` file, add `nuxui` dependencies
+modify `go.mod` file, add `nuxui` dependencies
 
 ```
 module example.com/my/hello
 
 go 1.18
 
-require nuxui.org/nuxui v0.0.4
+require nuxui.org/nuxui v0.0.5
 
-replace nuxui.org/nuxui v0.0.4 => github.com/nuxui/nuxui v0.0.4
+replace nuxui.org/nuxui v0.0.5 => github.com/nuxui/nuxui v0.0.5
 ```
 
 then update dependencies

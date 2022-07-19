@@ -81,4 +81,4 @@ nux.SaveFileDialog().
 | :------------           |:--------------                     |:--              |
 | SetDirectory            | (string)                           | *saveFileDialog |
 | SetSaveName             | (string)                           | *saveFileDialog |
-| ShowModal               | (func(ok bool, results string))    | void            |
+| ShowModal               | (func(ok bool, result string))     | void            |
