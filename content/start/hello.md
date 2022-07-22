@@ -7,25 +7,6 @@ create `hello` project
 ``` shell
 mkdir hello
 cd hello
-go mod init example.com/my/hello
-```
-
-modify `go.mod` file, add `nuxui` dependencies
-
-```
-module example.com/my/hello
-
-go 1.18
-
-require nuxui.org/nuxui v0.0.5
-
-replace nuxui.org/nuxui v0.0.5 => github.com/nuxui/nuxui v0.0.5
-```
-
-then update dependencies
-
-```shell
-go mod tidy
 ```
 
 create a `hello.go` file and programing:
@@ -50,6 +31,13 @@ func main() {
     }))
 
 }
+```
+
+then update dependencies
+
+```shell
+go mod init example.com/hello
+go mod tidy
 ```
 
 build and run hello
