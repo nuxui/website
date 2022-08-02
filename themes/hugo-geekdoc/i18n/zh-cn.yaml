@@ -35,7 +35,7 @@ posts_count:
 posts_tagged_with: 所有带有“{{ . }}”标签的帖子。
 
 nuxui_version: >
-  nuxui 0.0.5 ·2022-07-19· 8ae02f2
+  nuxui 0.0.9 ·2022-08-02· d790175
 footer_legal_notice: "法律声明"
 footer_privacy_policy: "隐私政策"
 footer_content_license_prefix: >

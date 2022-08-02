@@ -11,3 +11,5 @@ Select the operating system on which you are installing NuxUI:
 [macOS]({{< ref "/start/install/macos" >}} "macOS Install")
 
 [Linux]({{< ref "/start/install/linux" >}} "Linux Install")
+
+[IOS]({{< ref "/start/install/ios" >}} "IOS Install")

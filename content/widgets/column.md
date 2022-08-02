@@ -28,4 +28,4 @@ layout: {
 }
 ```
 
-![](https://raw.githubusercontent.com/nuxui/samples/master/widgets/column/preview.jpg)
+![](https://gitee.com/nuxui/samples/raw/master/widgets/column/preview.jpg)
