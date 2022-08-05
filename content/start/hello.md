@@ -47,4 +47,4 @@ go build . && ./hello
 ```
 result screenshot
 
-<img src="/samples/screenshot_hello.jpg" width="250px" >
+<img src="/samples/screenshot_hello.webp" width="250px" >

@@ -33,4 +33,4 @@ layout: {
 }
 ```
 
-![](https://gitee.com/nuxui/samples/raw/master/widgets/button/preview.jpg)
+![](https://gitee.com/nuxui/samples/raw/master/widgets/button/preview.webp)

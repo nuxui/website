@@ -28,4 +28,4 @@ layout: {
 }
 ```
 
-![](https://gitee.com/nuxui/samples/raw/master/widgets/column/preview.jpg)
+![](https://gitee.com/nuxui/samples/raw/master/widgets/column/preview.webp)
