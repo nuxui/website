@@ -1,4 +1,4 @@
-baseURL = "https://nuxui.org"
+baseURL = "https://nuxui.org/"
 title = "nuxui"
 theme = "hugo-geekdoc"
 
@@ -37,3 +37,17 @@ enableRobotsTXT = true
   # type = "posts"
   # geekdocToC = 5
   # weight = 10
+
+
+copyright = 'Everything is mine'
+defaultContentLanguage = "en"
+
+[languages.en]
+languageName = "English"
+contentDir = "content/en"
+weight = 1
+
+[languages.cn]
+languageName = "Chinese"
+contentDir = "content/cn"
+weight = 2
