@@ -1,5 +1,5 @@
 ---
-title: "Linux install"
+title: "Linux Installation"
 weight: 3
 GeekdocHidden: true
 ---

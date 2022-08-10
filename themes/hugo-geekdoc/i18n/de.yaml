@@ -35,7 +35,7 @@ posts_count:
 posts_tagged_with: Alle Artikel mit dem Tag '{{ . }}'
 
 nuxui_version: >
-  nuxui 0.0.9 ·2022-08-02· d790175
+  nuxui 0.1.0 ·2022-08-11· 33a3989
 footer_legal_notice: Impressum
 footer_privacy_policy: Datenschutzerklärung
 footer_content_license_prefix: >

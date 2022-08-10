@@ -1,32 +1,27 @@
 ---
-title: "Windows install"
-weight: 1
+title: "Android Installation"
+weight: 4
 GeekdocHidden: true
-next:
-  title: Set up an editor
-  path: /get-started/editor
 ---
 
 ## System requirements
 
 To install and run NuxUI, your development environment must meet these minimum requirements:
 
-**golang 1.8+** Download and install golang 
+1. **golang 1.8+** 
 
-[Dwonload golang](https://go.dev/dl/)  
-[golang installation instructions](https://go.dev/doc/install)
+Download and install Golang： [golang installation instructions](https://go.dev/doc/install)
 
-### Use GDI+ backend
-
-NuxUI use windows `GDI+` as default graphic render backend library, It means NuxUI can run directly without any third part graphic library 
-
-build samples [`hello`](https://github.com/nuxui/samples) with command
+Just need Golang for build samples [`hello`](https://github.com/nuxui/samples), command is:
 ```shell
 go build .
 ```
 
-### Use Cairo backend
-NuxUI also support [`cairo`](https://www.cairographics.org/) as graphic render backend library. To use `cairo` graphic library, your development environment must meet these minimum requirements:
+ 2. **Cairo** (optional)
+
+NuxUI use `GDI+` as default graphic render backend, it means just need golang can build and run NuxUI applications
+
+NuxUI also supported [`cairo`](https://www.cairographics.org/) as graphic render backend. To use `cairo` graphic library, your development environment must meet these minimum requirements:
 
 [**msys2**](https://www.msys2.org/) lastest version
 

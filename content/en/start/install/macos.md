@@ -1,5 +1,5 @@
 ---
-title: "macOS install"
+title: "macOS Installation"
 weight: 2
 GeekdocHidden: true
 ---

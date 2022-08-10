@@ -1,5 +1,5 @@
 ---
-title: "IOS install"
+title: "IOS Installation"
 weight: 4
 GeekdocHidden: true
 ---
@@ -63,4 +63,4 @@ xcrun simctl install booted ./counter.app
 
 Preview
 
-<img src="/samples/screenshot_counter.webp" width="400px" >
+<img src="/samples/screenshot_ios.webp" width="400px" >
