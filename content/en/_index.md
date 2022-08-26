@@ -4,8 +4,8 @@ weight: 4
 ---
 
 
-NuxUI is Golang GUI SDK for IOS, Android, macOS, Windows, Linux from a single codebase.
+NuxUI is a Golang GUI SDK for building IOS, Android, macOS, Windows, and Linux applications — all from a single codebase.
 
-NuxUI is now in developing, the API maybe changed before first stable version.
+NuxUI is currently in development; the API may change before the first stable version is released.
 
-Any suggestion or good idea post to [discussions](https://github.com/nuxui/nuxui/discussions), let's us make it awesome
+Any suggestion or good idea post to [discussions](https://github.com/nuxui/nuxui/discussions). Let's make it awesome!
