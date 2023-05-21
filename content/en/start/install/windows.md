@@ -1,5 +1,5 @@
 ---
-title: "Android Installation"
+title: "Windows Installation"
 weight: 4
 GeekdocHidden: true
 ---

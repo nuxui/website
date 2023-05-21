@@ -15,3 +15,5 @@ Select the operating system on which you are installing NuxUI:
 [IOS]({{< ref "/start/install/ios" >}} "IOS Installation")
 
 [Android]({{< ref "/start/install/android" >}} "Android Installation")
+
+[Web]({{< ref "/start/install/web" >}} "Web Installation")
